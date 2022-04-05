@@ -33,4 +33,4 @@ RUN pip install -U "pip>=19.3.1" && \
 COPY . .
 
 EXPOSE 8081
-CMD [ "waitress-serve", "--port=8081", "run_srv:app"]
+CMD [ "waitress-serve", "--port=8081", "run_srv:run_srv"]
